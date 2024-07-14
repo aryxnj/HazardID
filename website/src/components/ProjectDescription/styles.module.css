@@ -1,0 +1,60 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.heading {
+  font-size: 3rem;
+  color: var(--textTitle);
+  margin: 3rem;
+  margin-top: 5rem;
+  text-align: center;
+  color: blue;
+}
+
+.heading_desc {
+  font-size: 2rem;
+  color: var(--textTitle);
+  margin: 2rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  color: var(--textTitle);
+  text-align: justify;
+  margin: 3rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 0rem;
+}
+
+.sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the images horizontally */
+  padding: 2rem 0;
+  width: 100%;
+  margin-bottom: -2rem;
+  margin-top: 2rem;
+}
+
+.sponsors img {
+  width: auto; /* Set width to auto to maintain aspect ratio */
+  max-height: 100px; /* Adjust the max height as needed */
+  margin: 0 10px; /* Adjust margin for spacing between images */
+}
+
+/* Adjust the size of the Streamlit logo */
+.sponsors img[alt="SVG 5"] {
+  max-height: 75px; /* Adjust the max height as needed */
+  margin-top: -15px; /* Adjust the margin to move it upwards */
+}

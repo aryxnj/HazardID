@@ -1,0 +1,122 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.heading {
+  font-size: 3rem;
+  color: var(--textTitle);
+  margin: 3rem;
+  margin-top: 5rem;
+  text-align: center;
+  color: blue;
+}
+
+.heading_desc {
+  font-size: 2rem;
+  color: var(--textTitle);
+  margin: 2rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  color: var(--textTitle);
+  text-align: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 0rem;
+}
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  margin-bottom: 8rem;
+  gap: 5rem;
+}
+
+/* .button {
+  padding: 2rem 3rem;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  z-index: -1;
+} */
+
+.button {
+  padding: 1.5rem 3rem; /* Adjusted padding for a more balanced look */
+  font-size: 1.25rem;
+  border-radius: 10px; /* Slightly increased border radius for smoother edges */
+  background-color: #f0f0f0; /* Lighter gray background */
+  background: linear-gradient(135deg, #f0f0f0 0%, #f1f1f1 100%); /* Gradient from white to light gray */
+  color: #333333; /* Darker text color for better contrast */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Adjusted shadow for a softer effect */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  background: linear-gradient(135deg, #f0f0f0 0%, #f1f1f1 100%)
+}
+
+/* Plastic effect */
+.button:before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  width: 140%; /* Increased size for a more pronounced glossy effect */
+  height: 140%; /* Increased size for a more pronounced glossy effect */
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1)); /* Adjusted glossy effect */
+  border-radius: 12px; /* Slightly increased border radius for the glossy effect */
+  z-index: -1;
+}
+
+.img {
+  width: 85%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin: auto;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+}

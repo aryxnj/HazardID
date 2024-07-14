@@ -1,0 +1,100 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.heading {
+  font-size: 3rem;
+  color: var(--textTitle);
+  margin: 3rem;
+  margin-top: 5rem;
+  text-align: center;
+  color: blue;
+}
+
+.heading_desc {
+  font-size: 2rem;
+  color: var(--textTitle);
+  margin: 2rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  color: var(--textTitle);
+  text-align: justify;
+  margin: 3rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 0rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  gap: 5rem;
+}
+
+.button {
+  /* padding: 0.75rem 1.5rem; */
+  padding: 2rem 3rem;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  background-color: #4CAF50; /* Green color */
+  color: #FFFFFF; /* White text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none; /* Remove border for a more modern look */
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Plastic effect */
+.button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px; /* Match button border radius */
+  z-index: -1;
+}
+
+.namecards {
+  display: flex;
+  justify-content: center;
+  gap: 7rem; /* Reduced the gap between cards */
+  margin: auto;
+  margin-bottom: 8rem; /* Adjusted margin to center cards vertically */
+}
+
+.namecards > div {
+  text-align: center; /* Adjusted text alignment for the cards */
+}
+
+.namecards img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Changed border-radius to make the images circular */
+  margin: 0 auto; /* Adjusted margin to center images horizontally */
+}
+
+.role {
+  margin-left: auto;
+  text-align: center; /* Adjusted text alignment for headers */
+}
